@@ -1,0 +1,32 @@
+section div {
+    border: none;
+    width: 100%;
+}
+
+section div p {
+    min-height: 100px;
+    line-height: 30px;
+}
+
+section div button {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1rem;
+    border: 1px solid var(--vivaMagenta);
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #BC264966;
+    transition: background-color .3s ease-in-out;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+section div button:hover {
+    background-color: var(--vivaMagenta);
+}
+
+section div span {
+    display: block;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
